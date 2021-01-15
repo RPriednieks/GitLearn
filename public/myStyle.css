@@ -1,0 +1,71 @@
+canvas {
+  width: 300pt;
+  margin: 10px;
+  border: 1px solid green;
+}
+
+.button {
+  background-color: #72B2A9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.reset {
+  background-color: #00994f;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+body {
+    background-color: #dfece6;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #084B42;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  color: #084B42;
+}
+
+div {
+  font-family: Georgia, serif;
+  color: #084B42;
+}
+
+.rainbow-button {
+  text-decoration:none;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  margin: 4px 2px;
+  font-family: Georgia, serif;
+}
+
+.rainbow-button:hover {
+  animation:slidebg 3s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
