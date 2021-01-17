@@ -5,7 +5,7 @@ canvas {
 }
 
 .button {
-  background-color: #72B2A9;
+  background-color: #72b2a9;
   border: none;
   border-radius: 10px;
   color: white;
@@ -30,28 +30,34 @@ canvas {
 }
 
 body {
-    background-color: #dfece6;
+  background-color: #dfece6;
 }
 
 h1 {
   font-family: Georgia, serif;
-  color: #084B42;
+  color: #084b42;
 }
 
 h2 {
   font-family: Georgia, serif;
-  color: #084B42;
+  color: #084b42;
 }
 
 div {
   font-family: Georgia, serif;
-  color: #084B42;
+  color: #084b42;
 }
 
 .rainbow-button {
-  text-decoration:none;
-  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  border-radius:10px;
+  text-decoration: none;
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  border-radius: 10px;
   border: none;
   color: white;
   font-weight: bold;
@@ -61,11 +67,11 @@ div {
 }
 
 .rainbow-button:hover {
-  animation:slidebg 3s linear infinite;
+  animation: slidebg 3s linear infinite;
 }
 
 @keyframes slidebg {
   to {
-    background-position:20vw;
+    background-position: 20vw;
   }
 }
